@@ -118,17 +118,19 @@ This distribution provides a balanced view of customer behavior across subscript
 * Churned customers averaged an NPS score of **3.04** compared to **5.81** for active customers
 
 ### Revenue
-* Enterprise customers generated the highest average CLV **($66.6K)** and CLV:CAC ratio **(332.8)**
-* Starter customers generated the lowest average CLV **($1.7K)** and CLV:CAC ratio **(8.4)**
+* Enterprise customers generated the highest average CLV **($66.6K)** and remained customers for an average of **22.3 months**
+* Starter customers generated the lowest average CLV **($1.7K)** and remained customers for an average of **7.8 months**
+
+### Additional Insight
+* While pricing concerns dominated churn among Starter customers, Enterprise churn was more frequently associated with Poor Support and Missing Features, suggesting that retention strategies may need to differ by customer segment.
 
 ---
 
 ## Recommendations  
 
-* Encourage annual subscriptions through pricing incentives
-* Improve onboarding and engagement for Starter customers
-* Reassess pricing for small businesses
-* Continue investing in Enterprise customer acquisition
+* Improve onboarding and engagement for Starter customers, who exhibited the highest churn rates and shortest customer lifespans.
+* Review pricing and packaging of lower-tier plans, as Budget Cuts and Price Too High were among the most common churn drivers.
+* Continue prioritizing Enterprise customer acquisition and retention efforts while improving support and product capabilities, as Enterprise customers generated the highest CLV but churn was more frequently associated with Poor Support and Missing Features.
 
 ---
 
@@ -139,11 +141,14 @@ This distribution provides a balanced view of customer behavior across subscript
 ## Limitations & Future Work
 
 ### Limitations
-* The dataset did not include expansion MRR or churned MRR, preventing the calculation of true Net Revenue Retention (NRR)
-* Churn risk analysis was limited to descriptive indicators rather than predictive modeling
+* The dataset did not include expansion MRR or churned MRR, preventing the calculation of true Net Revenue Retention (NRR).
+* Churn risk analysis was limited to descriptive indicators rather than predictive modeling.
+* The analysis identifies relationships and trends but cannot establish causal relationships between customer characteristics and churn outcomes.
 
 ### Future Work
-* Build a churn prediction model using machine learning techniques
-* Analyze customer retention by acquisition channel and industry
-* Incorporate additional SaaS metrics such as Net Revenue Retention (NRR)
-* Develop an interactive Tableau dashboard with filters and drill-down capabilities
+
+* Develop a predictive churn model using customer engagement metrics, billing cycles, and subscription plans.
+* Investigate whether annual billing directly improves retention or simply attracts more committed customers.
+* Analyze customer progression and upgrade behavior between subscription plans.
+* Analyze churn patterns by acquisition channel, industry, and company size.
+* Incorporate additional SaaS metrics such as Net Revenue Retention (NRR) and Gross Revenue Retention (GRR).
