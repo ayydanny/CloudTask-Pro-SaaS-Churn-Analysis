@@ -114,8 +114,8 @@ This distribution provides a balanced view of customer behavior across subscript
 * Company Closed
 
 ### Customer Health
-* Churned customers averaged 27.45% feature usage compared to 55.02% for active customers
-* Churned customers averaged an NPS score of 3.04 compared to 5.81 for active customers
+* Churned customers averaged **27.45%** feature usage compared to **55.02%** for active customers
+* Churned customers averaged an NPS score of **3.04** compared to **5.81** for active customers
 
 ### Revenue
 * Enterprise customers generated the highest average CLV **($66.6K)** and CLV:CAC ratio **(332.8)**
