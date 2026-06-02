@@ -1,0 +1,9 @@
+plan,billing_cycle,total_customers,churned_customers,churn_rate
+Starter,Monthly,134,103,76.87
+Starter,Annual,83,50,60.24
+Professional,Monthly,99,57,57.58
+Business,Monthly,87,46,52.87
+Professional,Annual,74,26,35.14
+Business,Annual,73,20,27.40
+Enterprise,Annual,18,4,22.22
+Enterprise,Monthly,32,7,21.88
